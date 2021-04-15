@@ -1,0 +1,27 @@
+.metro{
+}
+
+@media (max-width: 1337px){
+    .metro{
+        display: block;
+    }
+
+    .metro > .col:nth-of-type(2){
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 660px){
+    .metro> .col > .row{
+        display: block;
+
+    }
+
+    .metro .padright{
+        padding-right: 0;
+    }
+
+    .metro > .col > .row > .col:not(:first-of-type){
+        margin-top:1rem;
+    }
+}

@@ -1,0 +1,27 @@
+.card{
+    width: 100%;
+    min-height: 8rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cardsmall{
+    min-height: 8rem;
+    
+}
+.cardmed{
+    min-height: 12rem;
+}
+.cardlarge{
+    min-height: 16rem;
+}
+.cardprimary{
+    background-color: #feca57;
+}
+
+.cardsecondary{
+    background-color: #00d2d3;
+}
+
+.cardwarning{
+    background-color: #ee5253;
+}
